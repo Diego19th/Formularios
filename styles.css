@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+.formulario{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: cornflowerblue;
+    height: 50vh;
+}
+.lottie{
+    background-color: rgb(92, 211, 53);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+textarea{
+    width: 500px;
+    resize: none;
+}
+input{
+    margin-top: 10px;
+}
+.lottie1{
+    background-color: white;
+}
+.form2{
+    margin: 0 auto;
+    width: 500px;
+    height: 50vh;
+    background-color: rgb(77, 174, 206);
+}
+.form2 input{
+    display: inline-block;
+    border-radius: 10px;
+    background-color: aliceblue;
+    height: 30px;
+    text-align: center;
+}

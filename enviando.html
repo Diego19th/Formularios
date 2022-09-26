@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="lottie">
+        <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_h6ykqbyg.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop  autoplay></lottie-player>
+    </div>
+    <div class="formulario">
+        <form action="" class="form2">
+            <input type="email" required placeholder="email">
+            <input type="password" required placeholder="contraseña">
+            <br>
+            <label for="date">Fecha de nacimiento</label>
+            <input type="date" id="date">
+            <label for="color">Color favorito</label>
+            <input type="color" id="color">
+            <br>
+            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Comenta aquí"></textarea>
+            <br> <br>
+            <label for="grupo">ADSO
+                <input type="radio" name="programa" value="ADSO" id="adso">
+            </label>
+            <label for="grupo">ADSI
+                <input type="radio" name="programa" value="ADSI" id="adsi">
+            </label>
+            <br> <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+   
+</body>
+</html>
